@@ -1,0 +1,6 @@
+#Enable needed hardware interfaces
+dtparam=i2c_arm=on
+dtparam=i2c_vc=on
+
+#Enable I2C on the CSI pins. Does the same thing as "dtparam=i2c_vc=on". This is required for Zero 1.3, not required for Zero W
+dtoverlay=i2c0-bcm2708,pins_28_29
