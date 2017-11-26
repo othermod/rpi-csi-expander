@@ -8,5 +8,5 @@ if [ $(id -u) -ne 0 ]; then
 	exit 1
 fi
 
-sudo dpkg -i /boot/apt-get/i2c-tools_3.1.1+svn-2_armhf.deb
-sudo dpkg -i /boot/apt-get/python-smbus_3.1.1+svn-2_armhf.deb
+sudo dpkg -i /boot/analog/i2c-tools_3.1.1+svn-2_armhf.deb
+sudo dpkg -i /boot/analog/python-smbus_3.1.1+svn-2_armhf.deb

@@ -41,7 +41,7 @@ state = {x : 0 for x in buttons} # button internal state
 
 # Initialise the ADC using the default mode (use default I2C address)
 adc = ADS1x15(ic=ADS1015)
-gain = 6144
+gain = 4096
 sps = 250
 
 # Initialise the joystick events, mapped between the voltage readings of the ADC:
